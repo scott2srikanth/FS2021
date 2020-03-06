@@ -1,0 +1,29 @@
+Given a String, the task is to insert another string in between the given String at a particular specified index.
+
+Input: 		  originalString = "Computer Engineer", 
+              stringToBeInserted = "Science ", 
+              index = 8
+
+Output: Computer Science Engineer
+
+
+
+
+//Solution 1
+        String newString = new String(); 
+  
+        for (int i = 0; i < originalString.length(); i++) { 
+            newString += originalString.charAt(i); 
+            if (i == index) { 
+                newString += stringToBeInserted; 
+            } 
+        } 
+        return newString; 
+
+
+
+// Solution 2
+        String newString = originalString.substring(0, index + 1) 
+                           + stringToBeInserted 
+                           + originalString.substring(index + 1); 
+        return newString; 

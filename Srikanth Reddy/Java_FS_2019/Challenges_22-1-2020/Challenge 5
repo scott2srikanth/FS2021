@@ -1,0 +1,11 @@
+
+Below is a pseudo-code... figure out the input and output.
+
+				char ch = ' '; 
+				for (int i = 0; i < str.length(); i++) { 
+					if (ch == ' ' && str.charAt(i) != ' ') 
+						s.append(Character.toUpperCase(str.charAt(i))); 
+					else
+						s.append(str.charAt(i)); 
+						ch = str.charAt(i); 
+				}     

@@ -1,0 +1,10 @@
+Given a String, the task is to replace and captalize the string.
+
+Input:  OriginalString : "the fox jumped over the wall"
+		ReplaceWith : fox dog  
+
+Output: THE DOG JUMPED OVER THE WALL
+
+
+
+    

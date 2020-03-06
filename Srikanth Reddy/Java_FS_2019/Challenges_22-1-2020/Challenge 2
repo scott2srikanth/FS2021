@@ -1,0 +1,14 @@
+Given a String with extra delimiter at the end, the task is to remove this extra delimiter
+
+Input: 		    KMIT, CSE, 1900QWE501, Mohan, 
+
+Output: KMIT, CSE, 1900QWE501, Mohan
+
+
+
+
+//Solution 1
+
+        int index = str.lastIndexOf(delimiter); 
+        str = str.substring(0, index) + str.substring(index + 1); 
+    

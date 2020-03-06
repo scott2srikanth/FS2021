@@ -1,0 +1,16 @@
+Given a String, the task is to find if keyword exist in the array and print tha corresponding string resp..
+
+      {{"Hello","Hi","Thankyou"},{"World","Good Afternoon","Bye"}}
+
+Input:  Enter keyword : Hi
+
+Output: Good Afternoon
+
+
+
+
+//Solution 1
+
+        "Keyword : "+dict[0][0]
+		"Value : "+dict[1][0]
+    
