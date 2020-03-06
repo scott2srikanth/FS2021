@@ -1,0 +1,13 @@
+All the students are hereby informed to meet ur mentors and  update the following contents of SIH project before jntu exams
+1.Features of ur project
+2.use case /flow chart
+3.UI design
+4.DB design
+As informed many times earlier it is mandatory for all the students of F.S To complete one SIH project to be eligible for attending recruitment drives.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Student Grievance Management System:
+
+(1) Grievance Redressal Committees, respective heads.
+ (2) Students should be able to post complaints under different categories, Department Level, Institute/College Level and University Level. Again these categories would be subdivided among sub categories such as Admission, Finance, Examination, Lecture Timemable/Learning, Paper Re-Evealution, etc. 
+(3) Members of Students Grievance Redressal Committee should be able to sort complains based on keywords. 
+(4) The Portal should link students with respetive Department/Institutions/College and University Students Grievance Redressal Committees.
