@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.*;
+
+class Test124 {
+	static List<String> places = new ArrayList<>();	
+	
+	Scanner sc=new Scanner(System.in);
+
+		public static List getPlaces(){
+			String s=sc.nextLine();
+			List<String> l=new ArrayList<>();
+			String s1[]=s.split(",");
+			for(int i=0;i<s1.length;i++){
+					places.add(s1[i]);
+			}
+			
+			return places;
+		}
+
+		public static void main( String[] args ) {
+			
+			
+			List<String> myPlaces = getPlaces();
+			String s2=sc.nextLine();
+			System.out.println(myPlaces);
+			myPlaces.forEach(p -> {
+				if(p.contains(s2)){
+					System.out.println(p);
+				}
+			});
+		}
+}
